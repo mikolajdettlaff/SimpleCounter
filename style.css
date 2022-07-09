@@ -1,0 +1,47 @@
+body
+{
+    background: linear-gradient(to right,#ffd900, #2f03f1);
+    color: white;
+    font-family: sans-serif;
+}
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5%;
+    border: 200px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 0px 200px 0px 200px;
+}
+h1
+{
+    font-size: 100px;
+}
+#score
+{
+    font-size: 200px;
+}
+.inner
+{
+    display: inline-block;
+    padding: 40px;
+    margin: 60px;
+}
+button
+{
+    color: white;
+    border: none;
+    font-size: 250px;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.counter
+{
+    background: linear-gradient(to right,#ffd900, #2f03f1);
+    margin-top: 10px;
+    border-radius: 20px;
+}
